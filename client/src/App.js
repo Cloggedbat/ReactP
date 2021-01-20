@@ -1,10 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import GlobalProvider from './utils/GlobalContext';
-import Homepage from './pages/Homepage';
+import App2 from './pages/Homepage';
 import contacts from './pages/contactAj';
 import Portfolio from './pages/profile';
 import Navbar from './components/Navbar';
+// import SwiperCore, { Swiper } from 'swiper'
+// import './swiper/swiper-bundle.css'
+// we may not use this
+// import 'styles.css'
 
 function App() {
   return (
@@ -14,12 +18,13 @@ function App() {
 
         <div className="App">
           <Switch>
-            <Route exact path='/' component={Homepage} />
+            <Route exact path='/' component={App2} />
             <Route exact path='/portfolio' component={Portfolio} />
-
             <Route exact path='/contact' component={contacts} />
           </Switch>
         </div>
+
+
       </GlobalProvider>
     </Router>
   );

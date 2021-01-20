@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "ReactP",
+			"path": "..\\..\\.."
+		},
+		{
+			"name": "server",
+			"path": "..\\..\\..\\..\\..\\..\\React-profile\\server"
+		}
+	],
+	"settings": {}
+}
