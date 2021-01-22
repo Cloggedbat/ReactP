@@ -4,56 +4,58 @@ import {
   Jumbotron,
 } from "react-bootstrap";
 import './Homepage.css'
-import whoAmI from '../assets/Bolton sunset.jpg'
+// import whoAmI from '../assets/Bolton sunset.jpg'
 import ressi from '../assets/resume.PNG'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination, Controller, Thumbs } from 'swiper';
 import 'swiper/swiper-bundle.css';
-// import './styles.css';
+// import Swiper from 'react-id-swiper';
 
-SwiperCore.use([Navigation, Pagination, Controller, Thumbs]);
+// custom css
 
-function App2() {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
-  const [controlledSwiper, setControlledSwiper] = useState(null);
 
-  const slides = [];
-  for (let i = 0; i < 5; i += 1) {
-    slides.push(
-      <SwiperSlide key={`slide-${i}`} tag="li">
-        <img
-          src={`https://picsum.photos/id/${i + 1}/500/300`}
-          style={{ listStyle: 'none' }}
-          alt={`Slide ${i}`}
-        />
-      </SwiperSlide>
-    );
-  }
+const App2 = () => {
+  // slider configuration
+  // const HeroSliderConfigs = {
+  //   containerClass: 'swiper-container hero-slider',
+  //   parallax: true,
+  //   centeredSlides: true,
+  //   grabCursor: true,
+  //   speed: 500,
+  //   spaceBetween: 0,
+  //   effect: 'slide'
+  // };
 
-  const thumbs = [];
-  for (let i = 0; i < 5; i += 1) {
-    thumbs.push(
-      <SwiperSlide key={`thumb-${i}`} tag="li" style={{ listStyle: 'none' }}>
-        <img
-          src={`https://picsum.photos/id/${i}/163/100`}
-          alt={`Thumbnail ${i}`}
-        ></img>
-      </SwiperSlide>
-    );
-  }
+  // // slider component
 
-  const slides2 = [];
-  for (let i = 9; i < 14; i += 1) {
-    slides2.push(
-      <SwiperSlide key={`slide-${i}`} tag="li">
-        <img
-          src={`https://picsum.photos/id/${i + 1}/500/300`}
-          style={{ listStyle: 'none' }}
-          alt={`Slide ${i}`}
-        />
-      </SwiperSlide>
-    );
-  }
+  // const [parallaxSwiper, setParallaxSwiper] = useState(null);
+  // const parallaxAmount = parallaxSwiper ? parallaxSwiper.width * 0.95 : 0;
+  // const parallaxOpacity = 0.5;
+  // // const thumbs = [];
+  // // for (let i = 0; i < 5; i += 1) {
+  // //   thumbs.push(
+  // //     <SwiperSlide key={`thumb-${i}`} tag="li" style={{ listStyle: 'none' }}>
+  // //       <img
+  // //         src={`https://picsum.photos/id/${i}/163/100`}
+  // //         alt={`Thumbnail ${i}`}
+  // //       ></img>
+  // //     </SwiperSlide>
+  // //   );
+  // // }
+
+  // // const slides2 = [];
+  // // for (let i = 9; i < 14; i += 1) {
+  // //   slides2.push(
+  // //     <SwiperSlide key={`slide-${i}`} tag="li">
+  // //       <img
+  // //         src={}
+  // //         style={{ listStyle: 'none' }}
+  // //         alt={`Slide ${i}`}
+  // //       />
+  // //     </SwiperSlide>
+  // //   );
+  // // }
+  // <div className="text-center">
+  //   <img className="center" src={whoAmI} alt='aj'  ></img>
+  // </div>
 
   return (
     <>
@@ -61,40 +63,10 @@ function App2() {
         <Jumbotron id="main-jumbotron">
           <h1 className="text-center">Who is Alvin Clemens</h1>
           <hr />
-          <div className="text-center">
-            <img className="center" src={whoAmI} alt='aj'  ></img>
-          </div>
 
-          <Swiper
-            id="main"
-            thumbs={{ swiper: thumbsSwiper }}
-            controller={{ control: controlledSwiper }}
-            tag="section"
-            wrapperTag="ul"
-            navigation
-            pagination
-            spaceBetween={0}
-            slidesPerView={1}
-            onInit={(swiper) => console.log('Swiper initialized!', swiper)}
-            onSlideChange={(swiper) => {
-              console.log('Slide index changed to: ', swiper.activeIndex);
-            }}
-            onReachEnd={() => console.log('Swiper end reached')}
-          >
-            {slides}
-          </Swiper>
-          <Swiper
-            id="thumbs"
-            spaceBetween={5}
-            slidesPerView={3}
-            onSwiper={setThumbsSwiper}
-          >
-            {thumbs}
-          </Swiper>
 
-          <Swiper id="controller" onSwiper={setControlledSwiper}>
-            {slides2}
-          </Swiper>
+
+
 
           <p id="mission" className="mission text-center">
             MY MISSION:
@@ -125,4 +97,62 @@ function App2() {
   );
 };
 
+
 export default App2;
+
+// <Swiper {...HeroSliderConfigs} getSwiper={setParallaxSwiper}>
+//   <div className="hero-slide">
+//     <div
+//       className="slide-image"
+//       data-swiper-parallax={parallaxAmount}
+//       data-swiper-parallax-opacity={parallaxOpacity}
+//     >
+//       <img src={whoAmI} alt="image1"></img>
+//     </div>
+//     <div className="col-md-6 offset-md-3 my-auto text-center text-white">
+//       <h1 className="text-uppercase mb-2 font-weight-bold">Slide 1</h1>
+//       <p className="mb-5 small">
+//         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque,
+//         ex quibusdam dolorem quae itaque velit. Nobis nesciunt sed corrupti
+//         ab quia neque, porro laborum error, autem facilis voluptates
+//         laboriosam?
+// </p>
+//     </div>
+//   </div>
+//   <div className="hero-slide">
+//     <div
+//       className="slide-image"
+//       data-swiper-parallax={parallaxAmount}
+//       data-swiper-parallax-opacity={parallaxOpacity}
+//     >
+//       <img src={whoAmI} alt="image2"></img>
+//     </div>
+//     <div className="col-md-6 offset-md-3 my-auto text-center text-white">
+//       <h1 className="text-uppercase mb-2 font-weight-bold">Slide 1</h1>
+//       <p className="mb-5 small">
+//         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque,
+//         ex quibusdam dolorem quae itaque velit. Nobis nesciunt sed corrupti
+//         ab quia neque, porro laborum error, autem facilis voluptates
+//         laboriosam?
+// </p>
+//     </div>
+//   </div>
+//   <div className="hero-slide">
+//     <div
+//       className="slide-image"
+//       data-swiper-parallax={parallaxAmount}
+//       data-swiper-parallax-opacity={parallaxOpacity}
+//     >
+//       <img src={whoAmI} alt="image3"></img>
+//     </div>
+//     <div className="col-md-6 offset-md-3 my-auto text-center text-white">
+//       <h1 className="text-uppercase mb-2 font-weight-bold">Slide 1</h1>
+//       <p className="mb-5 small">
+//         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque,
+//         ex quibusdam dolorem quae itaque velit. Nobis nesciunt sed corrupti
+//         ab quia neque, porro laborum error, autem facilis voluptates
+//         laboriosam?
+// </p>
+//     </div>
+//   </div>
+// </Swiper>
