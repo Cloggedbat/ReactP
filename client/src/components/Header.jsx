@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <nav className="navbar navbar-dark navbar-expand-lg fixed-top bg-black-transparent shadow">
       <a className="navbar-brand" href="/">
-        FrontendFunn
+        Alvin Clemens
       </a>
       <button
         className="navbar-toggler"

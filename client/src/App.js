@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroSlider from './components/HeroSlider';
+import HeroSlider from './components/swipIMG';
 import Header from './components/Header';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import GlobalProvider from './utils/GlobalContext';

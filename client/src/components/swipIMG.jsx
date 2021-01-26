@@ -5,7 +5,7 @@ import 'swiper/css/swiper.css';
 import Swiper from 'react-id-swiper';
 
 // custom css
-import './HeroSlider.css';
+import './swipIMG.css';
 
 // images
 import image1 from '../images/IMG_3134 (1).JPG';
