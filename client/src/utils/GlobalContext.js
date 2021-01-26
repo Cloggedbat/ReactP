@@ -1,5 +1,5 @@
 import { createContext, useContext, useReducer } from 'react';
-
+import React from "react";
 // set up our global context
 export const GlobalContext = createContext();
 
