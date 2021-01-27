@@ -8,9 +8,9 @@ import Swiper from 'react-id-swiper';
 import './swipIMG.css';
 
 // images
-import image1 from '../images/IMG_3134 (1).JPG';
-import image2 from '../images/image2.jpg';
-import image3 from '../images/image3.jpg';
+// import image1 from '../images/IMG_3134 (1).JPG';
+import image2 from './images/profileIMGTEST1.jpg';
+import image3 from './images/image3.jpg';
 
 // slider configuration
 const HeroSliderConfigs = {
@@ -36,7 +36,7 @@ const HeroSlider = () => {
           data-swiper-parallax={parallaxAmount}
           data-swiper-parallax-opacity={parallaxOpacity}
         >
-          <img src={image1} alt="image1" hight="2000" width="2000"></img>
+          <img src={image3} alt="image1" hight="2000" width="2000"></img>
         </div>
         <div className="col-md-6 offset-md-3 my-auto text-center text-white">
           <h1 className="text-uppercase mb-2 font-weight-bold">Slide 1</h1>
@@ -54,7 +54,7 @@ const HeroSlider = () => {
           data-swiper-parallax={parallaxAmount}
           data-swiper-parallax-opacity={parallaxOpacity}
         >
-          <img src={image2} alt="image2"></img>
+          <img src={image2} alt="image2" hight="2000" width="2000"></img>
         </div>
         <div className="col-md-6 offset-md-3 my-auto text-center text-white">
           <h1 className="text-uppercase mb-2 font-weight-bold">Slide 1</h1>

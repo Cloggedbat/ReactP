@@ -3,6 +3,7 @@ import HeroSlider from './components/swipIMG';
 import Header from './components/Header';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import GlobalProvider from './utils/GlobalContext';
+import Portfolio from './pages/portflolio';
 import App2 from './components/Homepage';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <div className="App">
           <Switch>
             <Route exact path='/' component={App2} />
+            <Route exact path='/portfolio' component={Portfolio} />
 
           </Switch>
 
