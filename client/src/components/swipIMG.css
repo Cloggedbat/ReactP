@@ -1,5 +1,6 @@
 .hero-slide {
-  height: 500px !important;
+  height: 700px !important;
+  
   display: flex;
   position: relative;
   overflow: hidden;
@@ -14,10 +15,14 @@
   right: 0;
   margin: auto;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 .hero-slider .content {
-  position: relative;
-  z-index: 2;
+  /* position: bottom; */
+  /* z-index: 2; */
+}
+#theCoder{
+  color: black;
+  
 }

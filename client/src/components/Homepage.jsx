@@ -50,6 +50,20 @@ const App2 = () => {
           <br />
           <div className="text-center">
           </div>
+
+          <div className="ref-links ml-auto">
+            <div className="row">
+              <a className="nav-item nav-link" href="https://github.com/portercol" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github" id="github" ></i>
+              </a>
+              <a className="nav-item nav-link" href="https://www.linkedin.com/in/collin-porter-7b65311a8/" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-linkedin" id="linkedin" ></i>
+              </a>
+              <a className="nav-item nav-link" href="https://docs.google.com/document/d/1ntZxjSIBELqvqXeJtNiKjHUHoYsBll2aQQ2I90YVXig/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-file-text-o" id="resume" ></i>
+              </a>
+            </div>
+          </div>
         </Jumbotron>
       </Container>
     </>
@@ -59,59 +73,3 @@ const App2 = () => {
 
 export default App2;
 
-// <Swiper {...HeroSliderConfigs} getSwiper={setParallaxSwiper}>
-//   <div className="hero-slide">
-//     <div
-//       className="slide-image"
-//       data-swiper-parallax={parallaxAmount}
-//       data-swiper-parallax-opacity={parallaxOpacity}
-//     >
-//       <img src={whoAmI} alt="image1"></img>
-//     </div>
-//     <div className="col-md-6 offset-md-3 my-auto text-center text-white">
-//       <h1 className="text-uppercase mb-2 font-weight-bold">Slide 1</h1>
-//       <p className="mb-5 small">
-//         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque,
-//         ex quibusdam dolorem quae itaque velit. Nobis nesciunt sed corrupti
-//         ab quia neque, porro laborum error, autem facilis voluptates
-//         laboriosam?
-// </p>
-//     </div>
-//   </div>
-//   <div className="hero-slide">
-//     <div
-//       className="slide-image"
-//       data-swiper-parallax={parallaxAmount}
-//       data-swiper-parallax-opacity={parallaxOpacity}
-//     >
-//       <img src={whoAmI} alt="image2"></img>
-//     </div>
-//     <div className="col-md-6 offset-md-3 my-auto text-center text-white">
-//       <h1 className="text-uppercase mb-2 font-weight-bold">Slide 1</h1>
-//       <p className="mb-5 small">
-//         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque,
-//         ex quibusdam dolorem quae itaque velit. Nobis nesciunt sed corrupti
-//         ab quia neque, porro laborum error, autem facilis voluptates
-//         laboriosam?
-// </p>
-//     </div>
-//   </div>
-//   <div className="hero-slide">
-//     <div
-//       className="slide-image"
-//       data-swiper-parallax={parallaxAmount}
-//       data-swiper-parallax-opacity={parallaxOpacity}
-//     >
-//       <img src={whoAmI} alt="image3"></img>
-//     </div>
-//     <div className="col-md-6 offset-md-3 my-auto text-center text-white">
-//       <h1 className="text-uppercase mb-2 font-weight-bold">Slide 1</h1>
-//       <p className="mb-5 small">
-//         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque,
-//         ex quibusdam dolorem quae itaque velit. Nobis nesciunt sed corrupti
-//         ab quia neque, porro laborum error, autem facilis voluptates
-//         laboriosam?
-// </p>
-//     </div>
-//   </div>
-// </Swiper>
