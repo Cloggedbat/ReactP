@@ -53,13 +53,13 @@ const App2 = () => {
 
           <div className="ref-links ml-auto">
             <div className="row">
-              <a className="nav-item nav-link" href="https://github.com/portercol" target="_blank" rel="noopener noreferrer">
+              <a className="nav-item nav-link" href="https://github.com/Cloggedbat" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-github" id="github" ></i>
               </a>
-              <a className="nav-item nav-link" href="https://www.linkedin.com/in/collin-porter-7b65311a8/" target="_blank" rel="noopener noreferrer">
+              <a className="nav-item nav-link" href="https://www.linkedin.com/in/alvin-clemens-114377107/" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-linkedin" id="linkedin" ></i>
               </a>
-              <a className="nav-item nav-link" href="https://docs.google.com/document/d/1ntZxjSIBELqvqXeJtNiKjHUHoYsBll2aQQ2I90YVXig/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a className="nav-item nav-link" href="https://docs.google.com/document/d/1qE93WgteVxGUrE9e6EU3Vl_0wbF6XHWPIaGlL7_O44Y/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-file-text-o" id="resume" ></i>
               </a>
             </div>

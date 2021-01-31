@@ -4,7 +4,9 @@ import Header from './components/Header';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import GlobalProvider from './utils/GlobalContext';
 import Portfolio from './pages/portflolio';
-import App2 from './components/Homepage';
+import Footer from "./components/Footer";
+import contacts from "./pages/contactAj"
+import App2 from './pages/Homepage';
 
 function App() {
   return (
@@ -24,13 +26,13 @@ function App() {
           <Switch>
             <Route exact path='/' component={App2} />
             <Route exact path='/portfolio' component={Portfolio} />
-
+            <Route exact path='/contacts' component={contacts} />
           </Switch>
 
         </div>
-
-
       </GlobalProvider>
+      <Footer />
+
     </Router >
   );
 }
