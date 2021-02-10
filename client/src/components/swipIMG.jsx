@@ -58,7 +58,7 @@ const HeroSlider = () => {
         <div className="col-md-6 offset-md-3  text-center">
           <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">The Skier</h1>
           <p id="IMGTEXT" className="mb-5  font-weight-bold">
-            I have spent my whole ife skiing and it is my passion that I have fallowed to Utah.
+            I have spent my whole life skiing and it is my passion that I have falowed to Utah.
           </p>
         </div>
       </div>
