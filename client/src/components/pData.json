@@ -2,7 +2,7 @@
     {
         "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
         "id": "sureVote",
-        "img": "/images/surevotepro.png",
+        "img": "/proImages/surevotepro.png",
         "link": "https://young-journey-30565.herokuapp.com/",
         "name": "Sure Vote",
         "repo": "https://github.com/Cloggedbat/sure-vote",
@@ -11,7 +11,7 @@
     {
         "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
         "id": "Remember Them",
-        "img": "/images/remembertthemREACTP.PNG",
+        "img": "/proImages/remembertthemREACTP.PNG",
         "link": "https://protected-forest-25007.herokuapp.com/",
         "name": "Remember Them",
         "repo": "https://github.com/Cloggedbat/remember-them",
@@ -20,7 +20,7 @@
     {
         "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
         "id": "Whats Next",
-        "img": "/images/Whatnext-img.PNG",
+        "img": "/proImages/Whatnext-img.PNG",
         "link": "",
         "name": "Whats Next",
         "repo": "https://github.com/Cloggedbat/WhatsNext",

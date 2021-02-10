@@ -21,6 +21,7 @@ function App() {
           </div>
         </div>
       </div>
+      <br />
       <GlobalProvider>
         <div className="App">
           <Switch>
