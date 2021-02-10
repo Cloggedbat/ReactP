@@ -18,6 +18,33 @@
         "tech": "React.js, JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
     },
     {
+        "description": "Create and track daily exercise and cardio workouts.",
+        "id": "Track Your Fitness",
+        "img": "/proImages/fitnessTracker.PNG",
+        "link": "https://workitout1.herokuapp.com/?id=5fb4aa49fe555e0b78151c22",
+        "name": "Track Your Fitness",
+        "repo": "https://github.com/Cloggedbat/Track-Your-Workout",
+        "tech": "JavaScript, Express.js, Mongoose.js, MongoDB"
+    },
+    {
+        "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
+        "id": "Weather App",
+        "img": "/proImages/weatherapp.PNG",
+        "link": "https://cloggedbat.github.io/HW-6-Weather-app/",
+        "name": "Weather App",
+        "repo": "https://github.com/Cloggedbat/HW-6-Weather-app",
+        "tech": " JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
+    },
+    {
+        "description": "Take notes, see saved notes and delete notes.",
+        "id": "Note Taker",
+        "img": "/proImages/NoteTakerapp.PNG",
+        "link": "",
+        "name": "Server Based Note Taker",
+        "repo": "",
+        "tech": "JavaScript, Node.js, Express.js"
+    },
+    {
         "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
         "id": "Whats Next",
         "img": "/proImages/Whatnext-img.PNG",
@@ -28,20 +55,20 @@
     },
     {
         "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
-        "id": "sureVote",
-        "img": "/images/image1.jpg",
-        "link": "",
-        "name": "Sure Vote",
-        "repo": "",
+        "id": "Daily Planner",
+        "img": "/proImages/Dailysceduler.PNG",
+        "link": "https://cloggedbat.github.io/HW5-scheduler-Alvin/",
+        "name": "Daily Planner",
+        "repo": "https://github.com/Cloggedbat/HW5-scheduler-Alvin",
         "tech": "React.js, JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
     },
     {
         "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
-        "id": "sureVote",
-        "img": "/images/image1.jpg",
-        "link": "",
-        "name": "Sure Vote",
-        "repo": "",
+        "id": "PWGenorator",
+        "img": "/proImages/PWgenorator.PNG",
+        "link": "https://cloggedbat.github.io/03-JavaScript-Password-Generator/",
+        "name": "Random Password Genorator",
+        "repo": "https://github.com/Cloggedbat/03-JavaScript-Password-Generator",
         "tech": "React.js, JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
     }
 ]
