@@ -9,7 +9,8 @@ import './swipIMG.css';
 
 // images
 // import image1 from '../images/IMG_3134 (1).JPG';
-import image2 from './images/ProfiletestTwo.jpg';
+import image2 from './images/The Coder.JPG';
+
 import image3 from './images/wide screen resize8.jpg';
 import image from './images/chickchocks.jpg'
 
@@ -37,7 +38,7 @@ const HeroSlider = () => {
           data-swiper-parallax={parallaxAmount}
           data-swiper-parallax-opacity={parallaxOpacity}
         >
-          <img src={image3} alt="image1" ></img>
+          <img src={image2} alt="image1" width="1302" ></img>
         </div>
         <div className="col-md-6 offset-md-3  text-center ">
           <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">The Coder</h1>
@@ -67,7 +68,7 @@ const HeroSlider = () => {
           data-swiper-parallax={parallaxAmount}
           data-swiper-parallax-opacity={parallaxOpacity}
         >
-          <img src={image2} alt="image2" ></img>
+          <img src={image2} alt="image2" width="1302" ></img>
         </div>
         <div className="col-md-6 offset-md-3  text-center">
           <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">Something</h1>

@@ -48,7 +48,7 @@
         "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
         "id": "Whats Next",
         "img": "/proImages/Whatnext-img.PNG",
-        "link": "",
+        "link": "https://nikolaslenning.github.io/WhatsNext/",
         "name": "Whats Next",
         "repo": "https://github.com/Cloggedbat/WhatsNext",
         "tech": "React.js, JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
