@@ -2,7 +2,7 @@
     {
         "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
         "id": "sureVote",
-        "img": "/proImages/surevotepro.png",
+        "img": "/proImages/surevotepro.PNG",
         "link": "https://young-journey-30565.herokuapp.com/",
         "name": "Sure Vote",
         "repo": "https://github.com/Cloggedbat/sure-vote",
