@@ -7,7 +7,7 @@ import Portfolio from './pages/portflolio';
 import Footer from './components/Footer';
 import contacts from './pages/contactAj'
 import App2 from './pages/Homepage';
-import PDF from './AlvinClemensResume2-10.PDF'
+import PDF from './components/images/AlvinClemensResume2-10.pdf'
 
 
 function App() {

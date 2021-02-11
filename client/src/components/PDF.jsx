@@ -9,8 +9,8 @@ const options = {
     cMapPacked: true,
 };
 
-export default function Sample() {
-    const [file, setFile] = useState('./sample.pdf');
+export default function PDF() {
+    const [file, setFile] = useState('./');
     const [numPages, setNumPages] = useState(null);
 
     function onFileChange(event) {
