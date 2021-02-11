@@ -3,6 +3,8 @@ import {
   Container,
   Jumbotron,
 } from "react-bootstrap";
+import PDF from '../components/images/AlvinClemensResume2-10.pdf'
+
 // import './Homepage.css'
 // import whoAmI from '../assets/Bolton sunset.jpg'
 // import HeroSlider from '../components/Navbar/swiper/myIMG';
@@ -59,7 +61,7 @@ const App2 = () => {
               <a className="nav-item nav-link" href="https://www.linkedin.com/in/alvin-clemens-114377107/" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-linkedin" id="linkedin" ></i>
               </a>
-              <a className="nav-item nav-link" href="https://docs.google.com/document/d/1qE93WgteVxGUrE9e6EU3Vl_0wbF6XHWPIaGlL7_O44Y/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a className="nav-item nav-link" href={PDF} target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-file-text-o" id="resume" ></i>
               </a>
             </div>
