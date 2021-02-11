@@ -1,4 +1,6 @@
 import React from 'react';
+import ressi from '../assets/AlvinClemensResume2-10.PDF'
+
 
 const Header = () => {
   return (
@@ -36,7 +38,7 @@ const Header = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-item nav-link" href="https://docs.google.com/document/d/1qE93WgteVxGUrE9e6EU3Vl_0wbF6XHWPIaGlL7_O44Y/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a className="nav-item nav-link" href={ressi} target="_blank" rel="noopener noreferrer">
               <i className="fa fa-file-text-o" id="resume" ></i>
             </a>
           </li>
