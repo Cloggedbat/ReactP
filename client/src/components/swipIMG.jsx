@@ -17,14 +17,17 @@ import image from './images/chickchocks.jpg'
 // slider configuration
 const HeroSliderConfigs = {
   containerClass: 'swiper-container hero-slider',
-  speed: "500",
-  parallax: true,
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+  // parallax: true,
+
   centeredSlides: true,
   grabCursor: true,
   spaceBetween: 0,
   runCallback: true,
-  effect: 'slide',
-  delay: 3000
+  effect: 'cube',
 };
 
 // slider component
