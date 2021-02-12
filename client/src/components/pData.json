@@ -75,9 +75,9 @@
         "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
         "id": "PWGenorator",
         "img": "/proImages/PWgenorator.PNG",
-        "link": "/",
+        "link": "/Video",
         "name": "Video Portfolio",
-        "repo": "/",
+        "repo": "/Video",
         "tech": "React.js, JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
     }
 ]

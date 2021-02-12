@@ -1,83 +1,18 @@
 [
     {
-        "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
-        "id": "sureVote",
-        "img": "/proImages/surevotepro.PNG",
-        "link": "https://young-journey-30565.herokuapp.com/",
-        "name": "Sure Vote",
-        "repo": "https://github.com/Cloggedbat/sure-vote",
-        "tech": "React.js, JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
+        "description": "My first youTube video from Stowe Vermont",
+        "id": "Stowe Footy",
+        "img": "/proImages/OG stowe Video.PNG",
+        "link": "https://www.youtube.com/watch?v=tjPDIi95dA4",
+        "name": "Stowe Footy",
+        "repo": "https://github.com/Cloggedbat/sure-vote"
     },
     {
-        "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
-        "id": "Remember Them",
-        "img": "/proImages/remembertthemREACTP.PNG",
-        "link": "https://protected-forest-25007.herokuapp.com/",
-        "name": "Remember Them",
-        "repo": "https://github.com/Cloggedbat/remember-them",
-        "tech": "React.js, JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
-    },
-    {
-        "description": "Create and track daily exercise and cardio workouts.",
-        "id": "Track Your Fitness",
-        "img": "/proImages/fitnessTracker.PNG",
-        "link": "https://workitout1.herokuapp.com/?id=5fb4aa49fe555e0b78151c22",
-        "name": "Track Your Fitness",
-        "repo": "https://github.com/Cloggedbat/Track-Your-Workout",
-        "tech": "JavaScript, Express.js, Mongoose.js, MongoDB"
-    },
-    {
-        "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
-        "id": "Weather App",
-        "img": "/proImages/weatherapp.PNG",
-        "link": "https://cloggedbat.github.io/HW-6-Weather-app/",
-        "name": "Weather App",
-        "repo": "https://github.com/Cloggedbat/HW-6-Weather-app",
-        "tech": " JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
-    },
-    {
-        "description": "Take notes, see saved notes and delete notes.",
-        "id": "Note Taker",
-        "img": "/proImages/NoteTakerapp.PNG",
-        "link": "",
-        "name": "Server Based Note Taker",
-        "repo": "",
-        "tech": "JavaScript, Node.js, Express.js"
-    },
-    {
-        "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
-        "id": "Whats Next",
-        "img": "/proImages/Whatnext-img.PNG",
-        "link": "https://nikolaslenning.github.io/WhatsNext/",
-        "name": "Whats Next",
-        "repo": "https://github.com/Cloggedbat/WhatsNext",
-        "tech": "React.js, JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
-    },
-    {
-        "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
-        "id": "Daily Planner",
-        "img": "/proImages/Dailysceduler.PNG",
-        "link": "https://cloggedbat.github.io/HW5-scheduler-Alvin/",
-        "name": "Daily Planner",
-        "repo": "https://github.com/Cloggedbat/HW5-scheduler-Alvin",
-        "tech": "React.js, JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
-    },
-    {
-        "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
-        "id": "PWGenorator",
-        "img": "/proImages/PWgenorator.PNG",
-        "link": "https://cloggedbat.github.io/03-JavaScript-Password-Generator/",
-        "name": "Random Password Genorator",
-        "repo": "https://github.com/Cloggedbat/03-JavaScript-Password-Generator",
-        "tech": "React.js, JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
-    },
-    {
-        "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
-        "id": "PWGenorator",
-        "img": "/proImages/PWgenorator.PNG",
-        "link": "/",
-        "name": "Video Portfolio",
-        "repo": "/",
-        "tech": "React.js, JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
+        "description": "Made it to a special place and just had to take a video of it!",
+        "id": "BassFooty",
+        "img": "/proImages/BassStowe.PNG",
+        "link": "https://www.youtube.com/watch?v=zRp2bQk8WTk",
+        "name": "Stowes Japan",
+        "repo": "https://www.youtube.com/watch?v=zRp2bQk8WTk"
     }
 ]

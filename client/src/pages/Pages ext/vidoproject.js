@@ -18,7 +18,6 @@ function Project(props) {
                 <hr />
                 <div className="card-body mt-0 pt-0">
                     <p className="card-text mb-3">{props.description}</p>
-                    <p className="card-text" style={{ color: "black" }}><strong>Technologies: </strong>{props.tech}</p>
                 </div>
                 <div className="row btn-group">
                     <a data-click={props.name} href={props.repo} className="btn btn-dark mr-1 ml-3" target="_blank" rel="noopener noreferrer">View Repo</a>
@@ -30,4 +29,4 @@ function Project(props) {
 }
 
 // export Project component
-export default vProject;
+export default Project;

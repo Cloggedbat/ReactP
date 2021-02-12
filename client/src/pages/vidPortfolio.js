@@ -1,9 +1,8 @@
 // import React, Project & Button component and project data
 import React from "react";
-import Project from "./Pages ext/vidPortfolio";
+import Project from "./Pages ext/vidoproject";
 import projectData from "../components/vData.json";
 // import Button from "../Button";
-
 // create Portfolio functional component
 function Portfolio() {
 
