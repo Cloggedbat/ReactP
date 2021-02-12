@@ -56,13 +56,13 @@ const App2 = () => {
           <div className="ref-links ml-auto">
             <div className="row">
               <a className="nav-item nav-link" href="https://github.com/Cloggedbat" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-github" id="github" ></i>
+                <i className="fa fa-github fa-2x" id="github" ></i>
               </a>
               <a className="nav-item nav-link" href="https://www.linkedin.com/in/alvin-clemens-114377107/" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-linkedin" id="linkedin" ></i>
+                <i className="fa fa-linkedin fa-2x" id="linkedin" ></i>
               </a>
               <a className="nav-item nav-link" href={PDF} target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-file-text-o" id="resume" ></i>
+                <i className="fa fa-file-text-o fa-2x" id="resume" ></i>
               </a>
             </div>
           </div>

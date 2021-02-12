@@ -6,23 +6,25 @@ import Swiper from 'react-id-swiper';
 
 // custom css
 import './swipIMG.css';
-
 // images
 // import image1 from '../images/IMG_3134 (1).JPG';
 import image2 from './images/The Coder.JPG';
 
 import image3 from './images/wide screen resize8.jpg';
 import image from './images/chickchocks.jpg'
+// SwiperCore.use([Navigation, Pagination])
 
 // slider configuration
 const HeroSliderConfigs = {
   containerClass: 'swiper-container hero-slider',
+  speed: "500",
   parallax: true,
   centeredSlides: true,
   grabCursor: true,
-  speed: 500,
   spaceBetween: 0,
-  effect: 'slide'
+  runCallback: true,
+  effect: 'slide',
+  delay: 3000
 };
 
 // slider component
@@ -31,21 +33,24 @@ const HeroSlider = () => {
   const parallaxAmount = parallaxSwiper ? parallaxSwiper.width * 0.95 : 0;
   const parallaxOpacity = 0.5;
   return (
-    <Swiper {...HeroSliderConfigs} getSwiper={setParallaxSwiper}>
+    <Swiper {...HeroSliderConfigs} getSwiper={setParallaxSwiper} >
       <div className="hero-slide">
         <div
           className="slide-image"
           data-swiper-parallax={parallaxAmount}
           data-swiper-parallax-opacity={parallaxOpacity}
         >
+
           <img src={image2} alt="image1" width="1302" ></img>
         </div>
-        <div className="col-md-6 offset-md-3  text-center ">
+        <div className="col-md-6 offset-md-3  text-center">
           <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">The Coder</h1>
           <p id="IMGTEXT" className="mb-5  font-weight-bold">
             Over the last 6 months I have taken the University of Utahs Coding Bootcamp becoming proficiant in HTML, CSS, Javascript, Microsoft Azur, Node JS, MySQl, and React.
           </p>
+
         </div>
+
       </div>
       <div className="hero-slide">
         <div
@@ -80,7 +85,7 @@ const HeroSlider = () => {
           </p>
         </div>
       </div>
-    </Swiper>
+    </Swiper >
   );
 };
 

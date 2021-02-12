@@ -7,6 +7,7 @@ import Portfolio from './pages/portflolio';
 import Footer from './components/Footer';
 import contacts from './pages/contactAj'
 import App2 from './pages/Homepage';
+import video from './pages/vidPortfolio'
 import PDF from './components/images/AlvinClemensResume2-10.pdf'
 
 
@@ -31,6 +32,7 @@ function App() {
             <Route exact path='/portfolio' component={Portfolio} />
             <Route exact path='/contacts' component={contacts} />
             <Route exact path='/ressi' component={PDF} />
+            <Route exact path='/Video' component={video} />
 
           </Switch>
 
