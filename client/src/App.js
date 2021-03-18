@@ -14,11 +14,15 @@ import PDF from './components/images/AlvinClemensResume2-10.pdf'
 function App() {
   return (
     <Router>
+      <Header />
+      <br />
+      <br />
+      <br />
+
       <div className="App">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12 px-0">
-              <Header />
               <HeroSlider />
             </div>
           </div>

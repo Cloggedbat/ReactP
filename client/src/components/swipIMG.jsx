@@ -20,6 +20,7 @@ const HeroSliderConfigs = {
   loop: true,
   autoplay: {
     delay: 5000,
+    speed: 2000
   },
   // parallax: true,
 
@@ -64,7 +65,7 @@ const HeroSlider = () => {
           <img src={image} alt="image2" width="1302" ></img>
         </div>
         <div className="col-md-6 offset-md-3  text-center">
-          <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">The Skier</h1>
+          <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">The Outdoorsman</h1>
           <p id="IMGTEXT" className="mb-5  font-weight-bold">
             I have spent my whole life skiing and it is my passion that I have falowed to Utah.
           </p>
@@ -79,7 +80,7 @@ const HeroSlider = () => {
           <img src={image2} alt="image2" width="1302" ></img>
         </div>
         <div className="col-md-6 offset-md-3  text-center">
-          <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">Something</h1>
+          <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">The Traveler</h1>
           <p id="IMGTEXT" className="mb-5  font-weight-bold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque,
             ex quibusdam dolorem quae itaque velit. Nobis nesciunt sed corrupti

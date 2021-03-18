@@ -23,7 +23,7 @@ const App2 = () => {
 
       <Container id="main-container">
         <Jumbotron id="main-jumbotron">
-          <h1 className="text-center">Who is Alvin Clemens</h1>
+          <h1 className="text-center">What is my Mission:</h1>
           <hr />
 
 
@@ -31,8 +31,8 @@ const App2 = () => {
 
 
           <p id="mission" className="mission text-center">
-            MY MISSION:
-        </p>
+
+          </p>
           <p>Over the last year, my partner and I have moved across the country to Utah and have fallen in love with this
           state. With the recent outbreak of COVID-19, my focus has shifted from working in the ski industry to looking
           at the future of our post-pandemic economy. This will be an economy that has elevated e-commerce and marketing
