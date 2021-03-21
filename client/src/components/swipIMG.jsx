@@ -8,10 +8,11 @@ import Swiper from 'react-id-swiper';
 import './swipIMG.css';
 // images
 // import image1 from '../images/IMG_3134 (1).JPG';
-import image2 from './images/The Coder.JPG';
 
-import image3 from './images/wide screen resize8.jpg';
-import image from './images/chickchocks.jpg'
+import webDev from './images/The Coder.JPG';
+import theSkier from './images/chickchocks.jpg'
+import theTraveler from './images/theTraveler.JPG';
+
 // SwiperCore.use([Navigation, Pagination])
 
 // slider configuration
@@ -19,8 +20,8 @@ const HeroSliderConfigs = {
   containerClass: 'swiper-container hero-slider',
   loop: true,
   autoplay: {
-    delay: 5000,
-    speed: 2000
+    delay: 8000,
+    speed: 5000
   },
   // parallax: true,
 
@@ -45,8 +46,9 @@ const HeroSlider = () => {
           data-swiper-parallax-opacity={parallaxOpacity}
         >
 
-          <img src={image2} alt="image1" width="1302" ></img>
+          <img src={webDev} alt="image1" width="1302" ></img>
         </div>
+
         <div className="col-md-6 offset-md-3  text-center">
           <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">The Coder</h1>
           <p id="IMGTEXT" className="mb-5  font-weight-bold">
@@ -54,7 +56,6 @@ const HeroSlider = () => {
           </p>
 
         </div>
-
       </div>
       <div className="hero-slide">
         <div
@@ -62,12 +63,12 @@ const HeroSlider = () => {
           data-swiper-parallax={parallaxAmount}
           data-swiper-parallax-opacity={parallaxOpacity}
         >
-          <img src={image} alt="image2" width="1302" ></img>
+          <img src={theSkier} alt="image2" width="1302" ></img>
         </div>
         <div className="col-md-6 offset-md-3  text-center">
           <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">The Outdoorsman</h1>
           <p id="IMGTEXT" className="mb-5  font-weight-bold">
-            I have spent my whole life skiing and it is my passion that I have falowed to Utah.
+            Skiing is a passion that I have had my whole life, and has allowed me to see some amazing places.
           </p>
         </div>
       </div>
@@ -77,15 +78,12 @@ const HeroSlider = () => {
           data-swiper-parallax={parallaxAmount}
           data-swiper-parallax-opacity={parallaxOpacity}
         >
-          <img src={image2} alt="image2" width="1302" ></img>
+          <img src={theTraveler} alt="image2" width="1302" ></img>
         </div>
         <div className="col-md-6 offset-md-3  text-center">
           <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">The Traveler</h1>
           <p id="IMGTEXT" className="mb-5  font-weight-bold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque,
-            ex quibusdam dolorem quae itaque velit. Nobis nesciunt sed corrupti
-            ab quia neque, porro laborum error, autem facilis voluptates
-            laboriosam?
+            It is important to see new places and learn about other culturs.
           </p>
         </div>
       </div>

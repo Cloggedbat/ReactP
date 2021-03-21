@@ -8,6 +8,7 @@ import {
   Jumbotron
 } from "react-bootstrap";
 // import remember from '../assets/rememberthempicprofile.PNG'
+import PDF from '../components/images/AlvinClemensResume2-10.pdf'
 
 const contacts = () => {
 
@@ -79,6 +80,23 @@ const contacts = () => {
             </Form.Row>
           </Form>
           <button onClick={contacts}>Reach Out</button>
+          <br />
+          <br />
+
+          <div className="ref-links ml-auto" id="social">
+            <div className="row ">
+              <a className="nav-item nav-link" href="https://github.com/Cloggedbat" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github fa-2x" id="github" ></i>
+              </a>
+              <a className="nav-item nav-link" href="https://www.linkedin.com/in/alvin-clemens-114377107/" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-linkedin fa-2x" id="linkedin" ></i>
+              </a>
+              <a className="nav-item nav-link" href={PDF} target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-file-text-o fa-2x" id="resume" ></i>
+              </a>
+            </div>
+          </div>
+
         </Jumbotron>
       </Container>
     </>

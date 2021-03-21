@@ -2,16 +2,22 @@ import React, { useState } from 'react';
 import {
   Container,
   Jumbotron,
+  Col,
+  Row,
 } from "react-bootstrap";
 import PDF from '../components/images/AlvinClemensResume2-10.pdf'
-
-// import './Homepage.css'
+import './Homepage.css'
 // import whoAmI from '../assets/Bolton sunset.jpg'
 // import HeroSlider from '../components/Navbar/swiper/myIMG';
 // import ressi from '../assets/resume.PNG'
 /// import Swiper from 'react-id-swiper';
 
 // custom css
+
+import InstagramEmbed from 'react-instagram-embed';
+
+
+
 
 
 const App2 = () => {
@@ -30,7 +36,7 @@ const App2 = () => {
 
 
 
-          <p id="mission" className="mission text-center">
+          <p className="mission">
 
           </p>
           <p>Over the last year, my partner and I have moved across the country to Utah and have fallen in love with this
@@ -50,22 +56,33 @@ const App2 = () => {
         event.</p>
           <hr />
           <br />
-          <div className="text-center">
-          </div>
 
-          <div className="ref-links ml-auto">
-            <div className="row">
-              <a className="nav-item nav-link" href="https://github.com/Cloggedbat" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-github fa-2x" id="github" ></i>
-              </a>
-              <a className="nav-item nav-link" href="https://www.linkedin.com/in/alvin-clemens-114377107/" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-linkedin fa-2x" id="linkedin" ></i>
-              </a>
-              <a className="nav-item nav-link" href={PDF} target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-file-text-o fa-2x" id="resume" ></i>
-              </a>
-            </div>
-          </div>
+          {//instagram feed 
+          }
+          <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+
+
+          <Row>
+            <Col xs lg={5}>
+            </Col>
+            <Col xs lg={3}>
+              <div className="ref-links ml-auto" id="social">
+                <div className="row">
+                  <a className="nav-item nav-link" href="https://github.com/Cloggedbat" target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-github fa-3x" id="github" ></i>
+                  </a>
+                  <a className="nav-item nav-link" href="https://www.linkedin.com/in/alvin-clemens-114377107/" target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-linkedin fa-3x" id="linkedin" ></i>
+                  </a>
+                  <a className="nav-item nav-link" href={PDF} target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-file-text-o fa-3x" id="resume" ></i>
+                  </a>
+                </div>
+              </div>
+            </Col>
+            <Col xs lg={5}>
+            </Col>
+          </Row>
         </Jumbotron>
       </Container>
     </>

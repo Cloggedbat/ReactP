@@ -1,17 +1,7 @@
-.center{ 
-    /* display:flex; */
-  
-    height:300px;
-    width:300px;
-   
-}
-.ressi{
-    height:450px;
-    width:400px;
-}
+
 
 #mission{
-    font-size: 25px;
+    font-size: 88px;
 }
 body {
 
@@ -21,9 +11,7 @@ body {
     background-size: cover; */
 
 }
-#navName{
-    color: white;
-}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
@@ -39,14 +27,254 @@ hr {
     border-color: black;
 }
 
-
-
-.mr-3 {
-    text-align: center;
-}
-
 .fplogo {
     padding-bottom: 7px;
 }
 
-  
+#social{
+    display: flex;
+    align-content: center;
+}
+@media screen and (min-width: 1200px) {
+	h1 {
+		padding: 20px;
+	}
+
+	#saved-display::-webkit-scrollbar {
+		height: 1vw;
+	}
+
+	div.movie-card {
+		width: 220px;
+		margin: 1.5vw;
+	}
+
+	#movie-poster {
+		display: block;
+		padding-right: 90px;
+		padding-left: 25px;
+		padding-top: 35px;
+		margin-top: 30px;
+	}
+
+	img.thumbnail {
+		display: block;
+		width: 230px;
+		height: 320px;
+	}
+
+	img.movie-poster {
+		width: 220px;
+		height: 330px;
+	}
+}
+
+/* Media Query for Modal  */
+@media screen and (min-width: 960px) {
+	img.thumbnail {
+		display: block;
+		width: 200px;
+		height: 278px;
+	}
+
+	#movie-poster {
+		display: block;
+		padding-right: 90px;
+		padding-left: 25px;
+		padding-top: 55px;
+		margin-top: 40px;
+	}
+}
+
+/* Media query Only for tablet Screen size  */
+
+@media screen and (max-width: 875px) {
+	h1 {
+		font-size: 4.5rem;
+	}
+
+	#saved-display::-webkit-scrollbar {
+		height: 1.6vw;
+	}
+
+	div.movie-card {
+		width: 150px;
+	}
+
+	img.movie-poster {
+		width: 150px;
+		height: 210px;
+	}
+
+	img.saved-poster {
+		width: 130px;
+		height: 180px;
+	}
+
+	img.thumbnail {
+		width: 180px;
+		height: 270px;
+	}
+
+	#modal-movie-title {
+		font-size: 3rem;
+		font-weight: 500;
+	}
+
+	#modal-info p {
+		padding-bottom: 5px;
+	}
+}
+
+/* Media query Only for smaller tablet size  */
+
+@media (max-width: 780px) {
+	#movie-poster {
+		padding-top: 65px;
+		margin-top: 25px;
+		margin-right: 15px;
+	}
+
+	#movie-display {
+		max-width: 780px;
+		padding-left: 5vw;
+	}
+
+	img.thumbnail {
+		width: 150px;
+		height: 225px;
+	}
+
+	img.saved-poster {
+		width: 110px;
+		height: 152px;
+	}
+
+	#modal-movie-title {
+		font-size: 2.5rem;
+		font-weight: 500;
+	}
+}
+
+/* Media query Only for smaller tablet size  */
+
+@media screen and (max-width: 650px) {
+	#movie-poster {
+		padding-top: 65px;
+		margin-right: 100px;
+	}
+
+	img.thumbnail {
+		width: 150px;
+		height: 225px;
+	}
+
+	#modal-movie-title {
+		font-size: 2rem;
+		font-weight: 500;
+	}
+
+	#modal-info p {
+		padding-bottom: 3px;
+		font-size: 1.3rem;
+	}
+}
+/* Media query Only for smaller Screen size  */
+
+@media screen and (max-width: 550px) {
+	h1 {
+		font-size: 3rem;
+	}
+
+	#movie-display {
+		padding-left: 8vw;
+	}
+
+	div.movie-card {
+		width: 110px;
+		margin: 2vw 4vw;
+	}
+
+	img.movie-poster {
+		width: 110px;
+		height: 152px;
+	}
+
+	img.thumbnail {
+		width: 130px;
+		height: 180px;
+	}
+
+	img.saved-poster {
+		width: 95px;
+		height: 128px;
+	}
+
+	#modal-info p {
+		padding-bottom: 3px;
+	}
+
+	.save-button {
+		padding-left: 25px;
+	}
+	.copyright {
+		font-size: 0.9rem;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	#movie-display {
+		padding-left: 10vw;
+	}
+
+	div.movie-card {
+		width: 100px;
+		margin: 4vw;
+	}
+
+	img.movie-poster {
+		width: 100px;
+		height: 140px;
+	}
+
+	img.saved-poster {
+		width: 90px;
+		height: 125px;
+	}
+
+	.save-button {
+		padding-left: 38px;
+	}
+
+	#save-btn {
+		padding: 0 8px;
+	}
+	#remove-btn {
+		margin-bottom: 15px;
+		padding: 0 20px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#movie-display {
+		padding-left: 8vw;
+	}
+	div.movie-card {
+		width: 95px;
+		margin: 2vw;
+	}
+
+	img.movie-poster {
+		width: 95px;
+		height: 132px;
+	}
+
+	img.saved-poster {
+		width: 80px;
+		height: 110px;
+	}
+}
