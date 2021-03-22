@@ -18,19 +18,23 @@ import theTraveler from './images/theTraveler.JPG';
 // slider configuration
 const HeroSliderConfigs = {
   containerClass: 'swiper-container hero-slider',
-  loop: true,
+  loop: false,
   autoplay: {
     delay: 8000,
     speed: 5000
   },
-  // parallax: true,
-
-  centeredSlides: true,
-  grabCursor: true,
-  spaceBetween: 0,
-  runCallback: true,
   effect: 'cube',
-};
+  grabCursor: true,
+  cubeEffect: {
+    shadow: true,
+    slideShadows: true,
+    shadowOffset: 20,
+    shadowScale: 0.94,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+}
 
 // slider component
 const HeroSlider = () => {

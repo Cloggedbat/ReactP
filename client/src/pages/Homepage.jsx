@@ -6,6 +6,9 @@ import {
   Row,
 } from "react-bootstrap";
 import PDF from '../components/images/AlvinClemensResume2-10.pdf'
+import webDev from '../components/images/The Coder.JPG';
+
+
 import './Homepage.css'
 // import whoAmI from '../assets/Bolton sunset.jpg'
 // import HeroSlider from '../components/Navbar/swiper/myIMG';
@@ -39,7 +42,8 @@ const App2 = () => {
           <p className="mission">
 
           </p>
-          <p>Over the last year, my partner and I have moved across the country to Utah and have fallen in love with this
+
+          <img id="starshot" src={webDev} width="302" /><p>Over the last year, my partner and I have moved across the country to Utah and have fallen in love with this
           state. With the recent outbreak of COVID-19, my focus has shifted from working in the ski industry to looking
           at the future of our post-pandemic economy. This will be an economy that has elevated e-commerce and marketing
         to new levels, as brick and mortars become liabilities for small local businesses.</p>
@@ -59,29 +63,25 @@ const App2 = () => {
 
           {//instagram feed 
           }
-          <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
-
-
+          <div id="curator-feed-default-feed-layout">
+            <a href="https://curator.io" target="_blank" class="crt-logo crt-tag"></a>
+          </div>
           <Row>
-            <Col xs lg={5}>
-            </Col>
-            <Col xs lg={3}>
-              <div className="ref-links ml-auto" id="social">
-                <div className="row">
-                  <a className="nav-item nav-link" href="https://github.com/Cloggedbat" target="_blank" rel="noopener noreferrer">
-                    <i className="fa fa-github fa-3x" id="github" ></i>
-                  </a>
-                  <a className="nav-item nav-link" href="https://www.linkedin.com/in/alvin-clemens-114377107/" target="_blank" rel="noopener noreferrer">
-                    <i className="fa fa-linkedin fa-3x" id="linkedin" ></i>
-                  </a>
-                  <a className="nav-item nav-link" href={PDF} target="_blank" rel="noopener noreferrer">
-                    <i className="fa fa-file-text-o fa-3x" id="resume" ></i>
-                  </a>
-                </div>
+
+            <div className="ref-links ml-auto" id="social">
+              <div className="row">
+                <a className="nav-item nav-link" href="https://github.com/Cloggedbat" target="_blank" rel="noopener noreferrer">
+                  <i className="fa fa-github fa-2x" id="github" ></i>
+                </a>
+                <a className="nav-item nav-link" href="https://www.linkedin.com/in/alvin-clemens-114377107/" target="_blank" rel="noopener noreferrer">
+                  <i className="fa fa-linkedin fa-2x" id="linkedin" ></i>
+                </a>
+                <a className="nav-item nav-link" href={PDF} target="_blank" rel="noopener noreferrer">
+                  <i className="fa fa-file-text-o fa-2x" id="resume" ></i>
+                </a>
               </div>
-            </Col>
-            <Col xs lg={5}>
-            </Col>
+            </div>
+
           </Row>
         </Jumbotron>
       </Container>
