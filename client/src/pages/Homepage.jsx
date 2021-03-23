@@ -32,7 +32,7 @@ const App2 = () => {
 
       <Container id="main-container">
         <Jumbotron id="main-jumbotron">
-          <h1 className="text-center">What is my Mission:</h1>
+          <h1 className="text-center">My Story</h1>
           <hr />
 
 
@@ -43,9 +43,19 @@ const App2 = () => {
 
           </p>
 
-          <p>What up! I’m Alvin Honey Clemens J.R. or A.J. for short, a recent transplant to Utah and graduate of the University of Utah Coding Bootcamp. After graduating from Saint Michael's College in 2017 (with a bachelor of arts in political science) I continued working with VPIRG, an environmental consumer advocacy group that i worked with while in school. That was until my partner and I made a decision to leave Vermont and move to Salt Lake City to see more of the United States and to be closer to the national parks. So in 2019 we packed up and sold our old college furniture and drove across the country. Everything was great the first 7 months that is until March 14th, 2020 that day the whole world stopped…</p>
+          <img id="starshot" src={webDev} width="302" />
+          <br /><p>What up! I’m Alvin Honey Clemens J.R. or A.J. for short, a recent transplant to Utah and graduate of the University of Utah Coding Bootcamp. After graduating from Saint Michael's College in 2017 (with a bachelor of arts in political science) I continued working with VPIRG, an environmental consumer advocacy group that i worked with while in school. That was until my partner and I made a decision to leave Vermont and move to Salt Lake City to see more of the United States and to be closer to the national parks. So in 2019 we packed up and sold our old college furniture and drove across the country. Everything was great the first 7 months that is until March 14th, 2020 that day the whole world stopped…</p>
+          <br />
+          <br />
+
+          <h4>The Coder</h4>
           <p>Well actually that the world shifted on the 16th when Salt Lake City had a 5.5 earthquake but besides that I was jobless and looking to make a more permanent change in my career. So after year of dabbling in HTML and a little of Javascript I decided to make the leap and applied for the University of Utah's Coding Bootcamp and dedicated the next 6 months to learning HTML, CSS, Javascript, Microsoft Azur, Node JS, MySQl, React, and MongoDB.</p>
 
+          <h4>The Outdoorsman</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+          </p>
+          <h4>The Traveler</h4>
           <p>Prior to our transition to Utah, I worked with a talented team at Stowe Cider, creating one of the finest
           hard ciders on the east coast. During my time with them, I was tasked with managing our inbound orders from
           distributors to the outbound product leaving the warehouse. As Stowe Cider’s lone Sales Representative at the
@@ -58,7 +68,7 @@ const App2 = () => {
 
           {//instagram feed 
           }
-          <h2>Fallow the Adventure: </h2>
+          <h2>Follow the Adventure: </h2>
           <div id="curator-feed-default-feed-layout">
             <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>          </div>
           <Row>

@@ -1,6 +1,6 @@
 [
     {
-        "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
+        "description": "SURE VOTE is a full-stack, web-based, mobile-friendly web application that allows users to vote from their computer or mobile device. It utilizes facial recognition technology and UUID, which create a safe and secure method of voting during uncertain times.",
         "id": "sureVote",
         "img": "/proImages/surevotepro.PNG",
         "link": "https://young-journey-30565.herokuapp.com/",
@@ -9,7 +9,7 @@
         "tech": "React.js, JavaScript, Express.js, Passport.js, Nodemailer, Azure API, MongoDB"
     },
     {
-        "description": "Secure Web & Mobile-friendly voting made with facial recognition and 2FA.",
+        "description": "Remember Them is a web-based application that is a tribute page to fallen U.S. servicemembers. The user can research fallen heroes, add a hero to the database, link to other military-related websites, and discuss the fallen in the forum. They can also contact administrators to provide feedback.",
         "id": "Remember Them",
         "img": "/proImages/remembertthemREACTP.PNG",
         "link": "https://protected-forest-25007.herokuapp.com/",
