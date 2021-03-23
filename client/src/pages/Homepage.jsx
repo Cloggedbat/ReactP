@@ -7,9 +7,10 @@ import {
 } from "react-bootstrap";
 import PDF from '../components/images/AlvinClemensResume2-10.pdf'
 import webDev from '../components/images/The Coder.JPG';
-
-
+import InstagramEmbed from 'react-instagram-embed';
 import './Homepage.css'
+
+// un used images
 // import whoAmI from '../assets/Bolton sunset.jpg'
 // import HeroSlider from '../components/Navbar/swiper/myIMG';
 // import ressi from '../assets/resume.PNG'
@@ -17,7 +18,6 @@ import './Homepage.css'
 
 // custom css
 
-import InstagramEmbed from 'react-instagram-embed';
 
 
 
@@ -43,14 +43,9 @@ const App2 = () => {
 
           </p>
 
-          <img id="starshot" src={webDev} width="302" /><p>Over the last year, my partner and I have moved across the country to Utah and have fallen in love with this
-          state. With the recent outbreak of COVID-19, my focus has shifted from working in the ski industry to looking
-          at the future of our post-pandemic economy. This will be an economy that has elevated e-commerce and marketing
-        to new levels, as brick and mortars become liabilities for small local businesses.</p>
-          <p>I have a Bachelor of Arts in Political Science from Saint Michael's College in Colchester, VT. Over the last
-          winter I worked at Ski Butlers in Park City as a Team Leader; I was in charge of our 5 to 10 ski technicians
-          who would be out delivering our equipment while handling any client issues and calls. This job allowed me to
-        quickly understand Utah and my future in this state.</p>
+          <p>What up! I’m Alvin Honey Clemens J.R. or A.J. for short, a recent transplant to Utah and graduate of the University of Utah Coding Bootcamp. After graduating from Saint Michael's College in 2017 (with a bachelor of arts in political science) I continued working with VPIRG, an environmental consumer advocacy group that i worked with while in school. That was until my partner and I made a decision to leave Vermont and move to Salt Lake City to see more of the United States and to be closer to the national parks. So in 2019 we packed up and sold our old college furniture and drove across the country. Everything was great the first 7 months that is until March 14th, 2020 that day the whole world stopped…</p>
+          <p>Well actually that the world shifted on the 16th when Salt Lake City had a 5.5 earthquake but besides that I was jobless and looking to make a more permanent change in my career. So after year of dabbling in HTML and a little of Javascript I decided to make the leap and applied for the University of Utah's Coding Bootcamp and dedicated the next 6 months to learning HTML, CSS, Javascript, Microsoft Azur, Node JS, MySQl, React, and MongoDB.</p>
+
           <p>Prior to our transition to Utah, I worked with a talented team at Stowe Cider, creating one of the finest
           hard ciders on the east coast. During my time with them, I was tasked with managing our inbound orders from
           distributors to the outbound product leaving the warehouse. As Stowe Cider’s lone Sales Representative at the
@@ -63,9 +58,9 @@ const App2 = () => {
 
           {//instagram feed 
           }
+          <h2>Fallow the Adventure: </h2>
           <div id="curator-feed-default-feed-layout">
-            <a href="https://curator.io" target="_blank" class="crt-logo crt-tag"></a>
-          </div>
+            <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>          </div>
           <Row>
 
             <div className="ref-links ml-auto" id="social">

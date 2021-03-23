@@ -56,7 +56,6 @@ const HeroSlider = () => {
         <div className="col-md-6 offset-md-3  text-center">
           <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">The Coder</h1>
           <p id="IMGTEXT" className="mb-5  font-weight-bold">
-            Over the last 6 months I have taken the University of Utahs Coding Bootcamp becoming proficiant in HTML, CSS, Javascript, Microsoft Azur, Node JS, MySQl, and React.
           </p>
 
         </div>
@@ -72,7 +71,6 @@ const HeroSlider = () => {
         <div className="col-md-6 offset-md-3  text-center">
           <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">The Outdoorsman</h1>
           <p id="IMGTEXT" className="mb-5  font-weight-bold">
-            Skiing is a passion that I have had my whole life, and has allowed me to see some amazing places.
           </p>
         </div>
       </div>
@@ -87,7 +85,6 @@ const HeroSlider = () => {
         <div className="col-md-6 offset-md-3  text-center">
           <h1 id="IMGTEXT" className="text-uppercase mb-2 font-weight-bold">The Traveler</h1>
           <p id="IMGTEXT" className="mb-5  font-weight-bold">
-            It is important to see new places and learn about other culturs.
           </p>
         </div>
       </div>

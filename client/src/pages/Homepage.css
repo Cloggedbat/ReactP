@@ -1,4 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Syncopate&display=swap');
+
+
+
 
 #mission{
     font-size: 88px;
@@ -20,14 +25,16 @@ body {
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    text-shadow: 3px 3px 3px #808080;
+	font-family: 'Orbitron', sans-serif;    font-size: 50px;
+    text-shadow: 3px 3px 3px purple;
 }
 
+h2 {
+	font-family: 'Orbitron', sans-serif;    font-size: 30px;
+    text-shadow: 3px 3px 3px purple;
+}
 p {
-    font-style: italic;
-    font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
 }
 
 hr {
