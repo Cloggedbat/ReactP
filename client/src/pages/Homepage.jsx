@@ -8,6 +8,8 @@ import {
 import PDF from '../components/images/AlvinClemensResume2-10.pdf'
 import webDev from '../components/images/The Coder.JPG';
 import InstagramEmbed from 'react-instagram-embed';
+import topOFA from '../components/images/topofalta.jpg';
+
 import './Homepage.css'
 
 // un used images
@@ -43,7 +45,7 @@ const App2 = () => {
 
           </p>
 
-          <img id="starshot" src={webDev} width="302" />
+          <img id="starshot" src={topOFA} width="300" />
           <br /><p>What up! I’m Alvin Honey Clemens J.R. or A.J. for short, a recent transplant to Utah and graduate of the University of Utah Coding Bootcamp. After graduating from Saint Michael's College in 2017 (with a bachelor of arts in political science) I continued working with VPIRG, an environmental consumer advocacy group that i worked with while in school. That was until my partner and I made a decision to leave Vermont and move to Salt Lake City to see more of the United States and to be closer to the national parks. So in 2019 we packed up and sold our old college furniture and drove across the country. Everything was great the first 7 months that is until March 14th, 2020 that day the whole world stopped…</p>
           <br />
           <br />

@@ -52,6 +52,7 @@ const contacts = () => {
 
           <div className="ref-links ml-auto" id="social">
             <div className="row ">
+
               <a className="nav-item nav-link" href="mailto: alvinclemensjr@gmail.com" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-paper-plane fa-4x" id="github" ></i>
 
