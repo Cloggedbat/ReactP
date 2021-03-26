@@ -41,58 +41,40 @@ const contacts = () => {
     <>
       <Container id="main-container">
         <Jumbotron id="signup-jumbotron">
-          <h1 id="pi">Personal Information</h1>
-          <hr />
-          <Form id="signUp-form">
-            <Form.Row>
-              <Col>
-                <Form.Control
-                  placeholder="*First name"
-                // onChange={(e) => setFirstNameValue(e.target.value)}
-                />
-              </Col>
-              <Col>
-                <Form.Control
-                  placeholder="*Last name"
-                // onChange={(e) => setLastNameValue(e.target.value)}
-                />
-              </Col>
-            </Form.Row>
-            <Form.Row>
-              <Form.Group as={Col} controlId="formGridEmail">
-                <Form.Label></Form.Label>
-                <Form.Control
-                  type="email"
-                  placeholder="*Enter email"
-                // onChange={(e) => setUsernameValue(e.target.value)}
-                />
-              </Form.Group>
-            </Form.Row>
-            <Form.Row>
-              <Form.Group as={Col} controlId="formGridNotes">
-                <Form.Label></Form.Label>
-                <Form.Control
-                  type="Notes"
-                  placeholder="*Please reach out"
-                // onChange={(e) => setUsernameValue(e.target.value)}
-                />
-              </Form.Group>
-            </Form.Row>
-          </Form>
-          <button onClick={contacts}>Reach Out</button>
+
+          <h1>I'd like to hear from you</h1>
+          <h3> Lets build together!</h3>
+
+          <br />
+          <br />
           <br />
           <br />
 
           <div className="ref-links ml-auto" id="social">
             <div className="row ">
+              <a className="nav-item nav-link" href="mailto: alvinclemensjr@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-paper-plane fa-4x" id="github" ></i>
+
+                <p>Email Me</p>
+              </a>
+
               <a className="nav-item nav-link" href="https://github.com/Cloggedbat" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-github fa-2x" id="github" ></i>
+                <i className="fa fa-github fa-4x" id="github" ></i>
+                <p>Look Me Up</p>
               </a>
               <a className="nav-item nav-link" href="https://www.linkedin.com/in/alvin-clemens-114377107/" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-linkedin fa-2x" id="linkedin" ></i>
+                <i className="fa fa-linkedin fa-4x" id="linkedin" ></i>
+                <p>Check Me Out</p>
               </a>
               <a className="nav-item nav-link" href={PDF} target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-file-text-o fa-2x" id="resume" ></i>
+                <i className="fa fa-mobile fa-4x" id="resume" ></i>
+                <p>Call Me At </p>
+                <p>(610)506-7532</p>
+
+              </a>
+              <a className="nav-item nav-link" href={PDF} target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-file-text-o fa-4x" id="resume" ></i>
+                <p>Resume</p>
               </a>
             </div>
           </div>

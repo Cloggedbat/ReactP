@@ -39,7 +39,7 @@ const Header = () => {
           </li>
           <li className="nav-item">
             <a className="nav-item nav-link" href={ressi} target="_blank" rel="noopener noreferrer">
-              <i className="fa fa-file-text-o" id="resume" ></i>
+              Resume
             </a>
           </li>
         </ul>
