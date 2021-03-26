@@ -49,20 +49,21 @@ const App2 = () => {
           <br />
 
           <h4>The Coder</h4>
-          <p>Well actually that the world shifted on the 16th when Salt Lake City had a 5.5 earthquake but besides that I was jobless and looking to make a more permanent change in my career. So after year of dabbling in HTML and a little of Javascript I decided to make the leap and applied for the University of Utah's Coding Bootcamp and dedicated the next 6 months to learning HTML, CSS, Javascript, Microsoft Azur, Node JS, MySQl, React, and MongoDB.</p>
+          <p>Well actually the world shifted really on the 16th when Salt Lake City had a 5.5 earthquake but besides that I was jobless and looking to make a more permanent change in my career. So after years of dabbling in HTML and a little of Javascript I decided to make the leap and applied for the University of Utah's Coding Bootcamp and dedicated the next 6 months to learning HTML, CSS, Javascript, Microsoft Azur, Node JS, MySQl, React, and MongoDB. Honestly This was one of the best decisions I have ever made, don’t get me wrong it was the most challenging 6 months of my life but it was also exciting.
+          </p>
 
           <h4>The Outdoorsman</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
+          <p>
+            A huge part of my life has been spent in the exploring the Green and White mountains of New England, hiking them in the summer and skiing them in the winter. Skiing and ski racing has had a huge influence in my life, pushing me to see what is happening arounds us and take note in what needs to be protected. That being said in college I worked with the Vermont Public Interest Group (VPIRG).Working with VPIRG was a gratifying and engaging experience each day, and you could find yourself anywhere across the state biking up long driveways and speaking to complete strangers about a myriad of environmental topics. I quickly became a Director of the canvass the following summer helping to lay the groundwork for our two most successful canvasses, fundraising over $800,000 in 4 months. It is through my time as a VPIRG Director that I learned there is little I can't do once I put my mind to the task.
           </p>
           <h4>The Traveler</h4>
           <p>Prior to our transition to Utah, I worked with a talented team at Stowe Cider, creating one of the finest
-          hard ciders on the east coast. During my time with them, I was tasked with managing our inbound orders from
+          hard ciders on the United States. During my time with them, I was tasked with managing our inbound orders from
           distributors to the outbound product leaving the warehouse. As Stowe Cider’s lone Sales Representative at the
           time, I oversaw a 13% growth in our Burlington market, 9% in Vermont, and 13% in our New England market. This
           was accomplished though creating good relations with new accounts and managing existing relationships. I am
           also well versed in communicating with any customer while at sales demonstrations, trade shows, or any other
-        event.</p>
+          event.</p>
           <hr />
           <br />
 
