@@ -45,8 +45,12 @@ const App2 = () => {
 
           </p>
 
+          <Container id="">
+
+            <br />
+            <p className="text-center">What up! I’m Alvin Honey Clemens J.R. or A.J. for short, a recent transplant to Utah and graduate of the University of Utah Coding Bootcamp. After graduating from Saint Michael's College in 2017 (with a bachelor of arts in political science) I continued working with VPIRG, an environmental consumer advocacy group that i worked with while in school. That was until my partner and I made a decision to leave Vermont and move to Salt Lake City to see more of the United States and to be closer to the national parks. So in 2019 we packed up and sold our old college furniture and drove across the country. Everything was great the first 7 months that is until March 14th, 2020 that day the whole world stopped…</p>
+          </Container>
           <img id="starshot" src={topOFA} width="300" />
-          <br /><p>What up! I’m Alvin Honey Clemens J.R. or A.J. for short, a recent transplant to Utah and graduate of the University of Utah Coding Bootcamp. After graduating from Saint Michael's College in 2017 (with a bachelor of arts in political science) I continued working with VPIRG, an environmental consumer advocacy group that i worked with while in school. That was until my partner and I made a decision to leave Vermont and move to Salt Lake City to see more of the United States and to be closer to the national parks. So in 2019 we packed up and sold our old college furniture and drove across the country. Everything was great the first 7 months that is until March 14th, 2020 that day the whole world stopped…</p>
           <br />
           <br />
 
@@ -58,22 +62,22 @@ const App2 = () => {
           <p>
             A huge part of my life has been spent in the exploring the Green and White mountains of New England, hiking them in the summer and skiing them in the winter. Skiing and ski racing has had a huge influence in my life, pushing me to see what is happening arounds us and take note in what needs to be protected. That being said in college I worked with the Vermont Public Interest Group (VPIRG).Working with VPIRG was a gratifying and engaging experience each day, and you could find yourself anywhere across the state biking up long driveways and speaking to complete strangers about a myriad of environmental topics. I quickly became a Director of the canvass the following summer helping to lay the groundwork for our two most successful canvasses, fundraising over $800,000 in 4 months. It is through my time as a VPIRG Director that I learned there is little I can't do once I put my mind to the task.
           </p>
-          <h4>The Traveler</h4>
-          <p>Prior to our transition to Utah, I worked with a talented team at Stowe Cider, creating one of the finest
-          hard ciders on the United States. During my time with them, I was tasked with managing our inbound orders from
-          distributors to the outbound product leaving the warehouse. As Stowe Cider’s lone Sales Representative at the
-          time, I oversaw a 13% growth in our Burlington market, 9% in Vermont, and 13% in our New England market. This
-          was accomplished though creating good relations with new accounts and managing existing relationships. I am
-          also well versed in communicating with any customer while at sales demonstrations, trade shows, or any other
-          event.</p>
-          <hr />
+          <h4 >The Traveler</h4>
+          <p className="text-center">
+            From a young age I have been fortunate enough to have parents that believed in lived experiences. With them they passed down a love for travel and belief that the only way to learn about a culture is to experience it. Ski racing in Europe and South America allowed me to explore regions that few have heard of and fewer have seen. Taking a study abroad course in Bethlehem to learn more about conflicts in the Middle East, and finally making it to Russia to see Red Square and the people who are amazing. This love of travel is also what helped push my partner and I to make the move across the country, to get out of our comfort zone and experience another part of the United States.
+
+
+
+          </p>
           <br />
 
           {//instagram feed 
           }
-          <h2>Follow the Adventure: </h2>
+          <h2>Follow the Adventure </h2>
+          <hr />
           <div id="curator-feed-default-feed-layout">
-            <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>          </div>
+            <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>         </div>
+          <br />
           <Row>
 
             <div className="ref-links ml-auto" id="social">

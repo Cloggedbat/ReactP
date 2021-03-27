@@ -9,7 +9,9 @@
 }
 #starshot{
 	float:left;
-	margin: 1%;
+	margin: 2%;
+	margin-bottom: 9%;
+	margin-top: 5%;
 }
 #insta{
 	width: 300px;
@@ -53,89 +55,12 @@ hr {
 
 #social{
     display: flex;
-    align-content: center;
+    color: black;
 }
-
-@media screen and (min-width: 1200px) {
-	
-    
-
-	
-    
-    div.nav-item {
-		width: 110px;
-		height: 152px;
-	}
+#github{
+	color: black;
+	 
 }
-
-/* Media Query for Modal  */
-@media screen and (min-width: 960px) {
-	
-    div.nav-item {
-		width: 110px;
-		height: 152px;
-	}
-}
-
-/* Media query Only for tablet Screen size  */
-
-@media screen and (max-width: 875px) {
-
-
-    div.nav-item {
-		width: 110px;
-		height: 152px;
-	}
-}
-
-/* Media query Only for smaller tablet size  */
-
-@media (max-width: 780px) {
-
-    div.nav-item {
-		width: 110px;
-		height: 152px;
-	}
-
-	
-}
-
-/* Media query Only for smaller tablet size  */
-
-@media screen and (max-width: 650px) {
-	
-
-	
-    div.nav-item {
-		width: 110px;
-		height: 152px;
-	}
-}
-/* Media query Only for smaller Screen size  */
-
-@media screen and (max-width: 550px) {
-
-
-	div.nav-item {
-		width: 110px;
-		height: 152px;
-	}
-
-	
-}
-
-@media screen and (max-width: 375px) {
-	
-    
-    div.nav-item {
-		width: 110px;
-		height: 152px;
-	}
-}
-
-@media screen and (max-width: 320px) {
-    div.nav-item {
-		width: 110px;
-		height: 152px;
-	}
+#linkedin{
+	color: #0072b1
 }

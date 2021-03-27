@@ -9,7 +9,7 @@ import {
 } from "react-bootstrap";
 // import remember from '../assets/rememberthempicprofile.PNG'
 import PDF from '../components/images/AlvinClemensResume2-10.pdf'
-
+import "./contacts.css"
 const contacts = () => {
 
   // if (firstNameValue === "" || lastNameValue === ""|| usernameValue === "") {
@@ -48,34 +48,33 @@ const contacts = () => {
           <br />
           <br />
           <br />
-          <br />
-
+          <hr />
           <div className="ref-links ml-auto" id="social">
             <div className="row ">
 
-              <a className="nav-item nav-link" href="mailto: alvinclemensjr@gmail.com" target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-paper-plane fa-4x" id="github" ></i>
+              <a className="nav-item nav-link text-center" href="mailto: alvinclemensjr@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-paper-plane fa-4x" id="email" ></i>
 
-                <p>Email Me</p>
+                <p id="cantactdata">Email Me</p>
               </a>
 
-              <a className="nav-item nav-link" href="https://github.com/Cloggedbat" target="_blank" rel="noopener noreferrer">
+              <a className="nav-item nav-link text-center" href="https://github.com/Cloggedbat" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-github fa-4x" id="github" ></i>
-                <p>Look Me Up</p>
+                <p id="cantactdata">Look Me Up</p>
               </a>
-              <a className="nav-item nav-link" href="https://www.linkedin.com/in/alvin-clemens-114377107/" target="_blank" rel="noopener noreferrer">
+              <a className="nav-item nav-link text-center" href="https://www.linkedin.com/in/alvin-clemens-114377107/" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-linkedin fa-4x" id="linkedin" ></i>
-                <p>Check Me Out</p>
+                <p id="cantactdata">Check Me Out</p>
               </a>
-              <a className="nav-item nav-link" href={PDF} target="_blank" rel="noopener noreferrer">
-                <i className="fa fa-mobile fa-4x" id="resume" ></i>
-                <p>Call Me At </p>
-                <p>(610)506-7532</p>
+              <a className="nav-item nav-link text-center" href={PDF} target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-mobile fa-4x" id="phone" ></i>
+                <p id="cantactdata" className="text-center">Call Me At </p>
+                <p id="cantactdata" className="text-center">(610)506-7532</p>
 
               </a>
-              <a className="nav-item nav-link" href={PDF} target="_blank" rel="noopener noreferrer">
+              <a className="nav-item nav-link text-center" href={PDF} target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-file-text-o fa-4x" id="resume" ></i>
-                <p>Resume</p>
+                <p id="cantactdata">Resume</p>
               </a>
             </div>
           </div>
