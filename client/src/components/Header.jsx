@@ -1,5 +1,5 @@
 import React from 'react';
-import ressi from '../assets/AlvinClemensResume2-10.PDF'
+import ressi from './images/AlvinClemensResume2-10.pdf'
 
 
 const Header = () => {
