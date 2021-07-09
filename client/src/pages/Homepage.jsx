@@ -77,9 +77,9 @@ const App2 = () => {
           }
           <h2>Follow the Adventure </h2>
           <hr />
-          <div id="curator-feed-default-feed-layout">
-            <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>         </div>
-          <br />
+          <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+
+
           <Row>
 
             <div className="ref-links ml-auto" id="social">
