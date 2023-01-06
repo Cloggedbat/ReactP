@@ -23,6 +23,6 @@
     "react-instagram-embed": "^3.0.0",
     "react-pdf": "^5.1.0",
     "swiper": "^8.4.5",
-    "node" : ">=16.0.0 <17.0.0"
+    "node" : "^18.13.0"
   }
 }
